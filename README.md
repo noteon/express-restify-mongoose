@@ -1,6 +1,9 @@
 # express-restify-mongoose
 This library provides mongoose database models with a REST interface.
 
+我的修改（qinghai)
+ add options["X-Total-Count'],当该值为true时， GET uri-items的响应头里会带上 "X-Total-Count":xx
+
 [![Build Status](https://travis-ci.org/florianholzapfel/express-restify-mongoose.png)](https://travis-ci.org/florianholzapfel/express-restify-mongoose)
 [![NPM version](https://badge.fury.io/js/express-restify-mongoose.png)](http://badge.fury.io/js/express-restify-mongoose)
 [![Dependencies](https://david-dm.org/florianholzapfel/express-restify-mongoose.png)](https://david-dm.org/florianholzapfel/express-restify-mongoose)
